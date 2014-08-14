@@ -29,7 +29,7 @@ class Connection {
             sc = new Scanner(in);
             p = new PrintWriter(out);
         } catch (IOException ex) {
-            System.out.println("Fehler beim verbinden! "+ex.getMessage());
+            System.out.println("Error connecting! "+ex.getMessage());
             failed=true;
         }
     }
@@ -46,7 +46,7 @@ class Connection {
         try {
             s.close();
         } catch (IOException ex) {
-            System.out.println("Fehler bei disconnect! "+ex.getMessage());
+            System.out.println("Error disconnecting! "+ex.getMessage());
         }
     }
     public void println(String s){
