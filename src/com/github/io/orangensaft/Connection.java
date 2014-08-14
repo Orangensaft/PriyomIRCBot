@@ -11,7 +11,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 /**
- * Just to make things a bi
+ * Just to make things a bit
  */
 class Connection {
     public boolean failed=false;
