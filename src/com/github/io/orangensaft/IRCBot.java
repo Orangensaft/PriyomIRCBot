@@ -8,7 +8,6 @@ import java.util.regex.Pattern;
 
 /**
  * Bot by b1tshift
- * Mail me at orangensaft@outlook.com
  */
 public class IRCBot {
 
